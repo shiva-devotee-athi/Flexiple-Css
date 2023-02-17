@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    opacity: 0.6;
+
+    background-color: coral;
+}
+
+.item:hover:not(:-child){
+    background-color: coral;
+}
